@@ -160,6 +160,11 @@ p {
   letter-spacing: 0.06em;
 
   color: var(--primary-white-color);
+  background-color: var(--button-color);
+}
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--button-main-color);
 }
 /* Features section */
 
@@ -272,11 +277,13 @@ p {
   line-height: 1.62;
   text-align: center;
   color: var(--title-text-color);
+  background-color: var(--button-sec-color);
 }
 
 .portf-button-link:focus,
 .portf-button-link:hover {
   color: var(--primary-white-color);
+  background-color: var(--button-color);
 }
 
 /* Cards */
