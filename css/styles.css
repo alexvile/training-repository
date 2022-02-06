@@ -235,6 +235,14 @@ p {
 .our-team-item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
+
+.team-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team-li {
+  list-style: none;
+}
 .team-subtitle {
   margin-top: 30px;
 
