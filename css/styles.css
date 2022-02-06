@@ -179,6 +179,15 @@ p {
 .features-card:nth-child(4n) {
   margin-right: 0;
 }
+.features-thumb {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
 .features-subtitle {
   margin-bottom: 10px;
 
